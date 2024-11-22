@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "second-aoo",
-    "slug": "second-aoo",
+    "slug": "camapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shahrukhbutt804.camapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6164c899-6ebc-4cde-be86-e89ddc223fd6"
+      }
+    },
+    "owner": "shahrukhbutt804"
   }
 }
